@@ -51,17 +51,6 @@ Spent needs two accesses, both granted by you in system settings:
 
 CSV (UTF-8 with BOM, CRLF line breaks) and JSON (`{app, format, exported_at, rows}`). One row per day and app with the columns `date, package, app, usage_ms, launches, notifications, approx`. An empty value means unknown.
 
-## Build
-
-Requirements: Android Studio and JDK 17 or newer (the JDK bundled with Android Studio works). Minimum supported Android is 8.0 (API 26).
-
-```
-./gradlew assembleDebug    # debug APK
-./gradlew test             # unit tests
-```
-
-Release build: copy `keystore.properties.example` to `keystore.properties`, fill in your key, then run `./gradlew assembleRelease`. The APK appears in `app/build/outputs/apk/release/`. Without `keystore.properties` the release APK is built unsigned.
-
 ## Contributing
 
 Issues and pull requests are welcome. Privacy is the point of this project, so changes that add network access or telemetry will not be merged.

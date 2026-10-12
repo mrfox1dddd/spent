@@ -4,8 +4,8 @@ Spent itself is licensed under GPL-3.0 (see `LICENSE`).
 
 ## Fonts: SIL Open Font License 1.1
 
-- Onest: `third_party/fonts/Onest-OFL.txt`
-- Unbounded: `third_party/fonts/Unbounded-OFL.txt`
+- Onest: `third_party/fonts/Onest/OFL.txt`
+- Unbounded: `third_party/fonts/Unbounded/OFL.txt`
 
 The fonts are bundled unmodified in `app/src/main/res/font`.
 

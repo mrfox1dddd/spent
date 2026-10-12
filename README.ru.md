@@ -51,17 +51,6 @@
 
 CSV (UTF-8 с BOM, переводы строк CRLF) и JSON (`{app, format, exported_at, rows}`). Одна строка на пару «день + приложение», колонки `date, package, app, usage_ms, launches, notifications, approx`. Пустое значение означает «неизвестно».
 
-## Сборка
-
-Нужны Android Studio и JDK 17 или новее (подойдёт JDK, который идёт в составе Android Studio). Минимальная версия Android: 8.0 (API 26).
-
-```
-./gradlew assembleDebug    # debug APK
-./gradlew test             # юнит-тесты
-```
-
-Релизная сборка: скопируйте `keystore.properties.example` в `keystore.properties`, впишите свой ключ и запустите `./gradlew assembleRelease`. APK появится в `app/build/outputs/apk/release/`. Без `keystore.properties` релизный APK собирается неподписанным.
-
 ## Участие
 
 Issues и pull request приветствуются. Приватность здесь главное, поэтому изменения, которые добавляют доступ в сеть или телеметрию, приниматься не будут.
