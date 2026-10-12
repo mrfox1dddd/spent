@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Облачный бэкап выключен целиком: история использования не должна попадать в Google-аккаунт.
+    Прямой перенос на новый телефон (device-transfer) разрешён: счётчики уведомлений нельзя
+    восстановить из системы, и терять их при смене устройства жалко.
+    Что переносим: база Room (spent.db), настройки (DataStore) и служебные данные синхронизации.
+-->
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="root" path="." />
+        <exclude domain="file" path="." />
+        <exclude domain="database" path="." />
+        <exclude domain="sharedpref" path="." />
+        <exclude domain="external" path="." />
+    </cloud-backup>
+    <device-transfer>
+        <include domain="database" path="." />
+        <include domain="file" path="datastore" />
+        <include domain="sharedpref" path="sync.xml" />
+    </device-transfer>
+</data-extraction-rules>

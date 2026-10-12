@@ -1,0 +1,13 @@
+Spent shows how long you use your phone and how often apps interrupt you, without sending anything anywhere.
+
+- Time per app for a day, week, month, year or all time
+- 24-hour dial for today
+- Notification counter per app
+- Launches and notifications for each app
+- Export of the full history to CSV or JSON
+- Light and dark themes, three accent colors
+- English and Russian
+
+Privacy: the app has no internet permission. Data is stored only on your device and is not included in cloud backups. Notification text is never read, only counted. No ads, no analytics, no accounts.
+
+Spent needs two accesses that you grant in system settings: usage access (time in apps) and notification access (notification counter). Notifications are counted from the moment access is granted, earlier history is not available.

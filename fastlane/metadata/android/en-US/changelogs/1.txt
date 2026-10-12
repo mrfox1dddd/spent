@@ -1,0 +1,6 @@
+First public release.
+- Time per app: day, week, month, year, all time
+- Notification counter
+- CSV and JSON export
+- Light and dark themes, three accents
+- English and Russian

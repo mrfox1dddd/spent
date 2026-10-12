@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="duration_h_min">%1$d ч %2$d мин</string>
+    <plurals name="notifications">
+        <item quantity="one">%1$d уведомление</item>
+        <item quantity="few">%1$d уведомления</item>
+        <item quantity="many">%1$d уведомлений</item>
+        <item quantity="other">%1$d уведомления</item>
+    </plurals>
+
+    <string name="range_day">День</string>
+    <string name="range_week">Неделя</string>
+    <string name="range_month">Месяц</string>
+    <string name="range_year">Год</string>
+    <string name="range_all">Всё</string>
+
+    <string name="settings_appearance">Оформление</string>
+    <string name="theme_system">Как в системе</string>
+    <string name="theme_light">Светлая</string>
+    <string name="theme_dark">Тёмная</string>
+    <string name="settings_accent">Акцент</string>
+    <string name="accent_mint">Мята</string>
+    <string name="accent_rose">Малина</string>
+    <string name="accent_amber">Янтарь</string>
+    <string name="settings_language">Язык</string>
+    <string name="language_system">Как в системе</string>
+
+    <string name="duration_min">%1$d мин</string>
+    <string name="duration_lt_min">&lt; 1 мин</string>
+
+    <string name="access_usage">Доступ к статистике</string>
+    <string name="access_notifications">Доступ к уведомлениям</string>
+    <string name="access_grant">Выдать доступ</string>
+    <string name="empty_today">Пока пусто</string>
+    <string name="notifications_note">Считаем с момента выдачи доступа. Истории до этого нет.</string>
+
+    <string name="unit_h">ч</string>
+    <string name="unit_min">мин</string>
+    <string name="home_title">Экранное время</string>
+    <string name="today_caption">сегодня</string>
+    <string name="yesterday">Вчера</string>
+    <string name="week_avg">В среднем за неделю</string>
+    <string name="most_time">Больше всего времени</string>
+    <string name="notifications_today">Уведомлений сегодня</string>
+    <string name="no_access">нет доступа</string>
+    <string name="empty_usage_title">Нет доступа к статистике</string>
+    <string name="empty_usage_body">Без разрешения на историю использования Android не отдаёт приложению время в программах.</string>
+    <string name="tab_today">Сегодня</string>
+    <string name="tab_stats">Статистика</string>
+    <string name="tab_notifications">Уведомления</string>
+    <string name="tab_settings">Настройки</string>
+
+    <string name="cap_day">за сегодня</string>
+    <string name="cap_week">за 7 дней</string>
+    <string name="cap_month">за 30 дней</string>
+    <string name="cap_year">за 12 месяцев</string>
+    <string name="cap_all">за всё время</string>
+    <string name="stats_caption_avg">%1$s, в среднем %2$s в день</string>
+    <string name="stats_apps">Приложения</string>
+    <string name="empty_period">За этот период ничего нет</string>
+    <plurals name="notifications_word">
+        <item quantity="one">уведомление</item>
+        <item quantity="few">уведомления</item>
+        <item quantity="many">уведомлений</item>
+        <item quantity="other">уведомления</item>
+    </plurals>
+    <string name="empty_notif_title">Нет доступа к уведомлениям</string>
+    <string name="empty_notif_body">Чтобы считать уведомления, нужен доступ к ним в системных настройках.</string>
+    <string name="notif_loudest">Кто шумит больше всех</string>
+    <string name="notif_since">Считаем с %1$s. Истории до этого нет.</string>
+    <string name="notif_caption_avg">%1$s, в среднем %2$d в день</string>
+    <string name="back">Назад</string>
+    <string name="detail_caption">время в приложении %1$s</string>
+    <string name="fact_launches">Запусков</string>
+    <string name="fact_notifications">Уведомлений</string>
+    <string name="detail_launches_note">Запуски считаются только по точным данным.</string>
+    <string name="stats_approx_note">Бледные столбики приблизительные: за старые периоды Android хранит только укрупнённые суммы. Точные данные начинаются с %1$s.</string>
+
+    <string name="settings_access">Доступ</string>
+    <string name="access_usage_desc">Нужен для времени в приложениях</string>
+    <string name="access_notifications_desc">Нужен для счётчика уведомлений</string>
+    <string name="settings_about">О приложении</string>
+    <string name="about_body">Открытый исходный код. Все данные хранятся на устройстве.</string>
+    <string name="about_version">Версия %1$s</string>
+    <string name="about_license">Лицензия GPL-3.0. Шрифты Onest и Unbounded: SIL OFL 1.1.</string>
+
+    <string name="settings_data">Данные</string>
+    <string name="export_note">Сохраняется вся накопленная история: время, запуски и уведомления по каждому приложению и дню. Файл остаётся у вас, у Spent нет доступа в интернет.</string>
+    <string name="export_working">Сохраняем…</string>
+    <string name="export_done">Сохранено строк: %1$d</string>
+    <string name="export_empty">Пока нечего экспортировать, в файле только заголовок.</string>
+    <string name="export_failed">Не удалось сохранить файл</string>
+</resources>

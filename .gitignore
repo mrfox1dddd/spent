@@ -1,0 +1,26 @@
+# Gradle / Android
+.gradle/
+build/
+local.properties
+.kotlin/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+
+# IDE
+.idea/
+*.iml
+
+# Подпись релиза: ключи и пароли в репозиторий не попадают
+keystore.properties
+*.jks
+*.keystore
+
+# ОС
+.DS_Store
+Thumbs.db
+
+*.zip
+

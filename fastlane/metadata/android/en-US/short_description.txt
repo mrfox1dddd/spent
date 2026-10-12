@@ -1,0 +1,1 @@
+Private screen time and notification counter. Open source, works offline.
